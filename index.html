@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap  -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.css' integrity='sha512-bR79Bg78Wmn33N5nvkEyg66hNg+xF/Q8NA8YABbj+4sBngYhv9P8eum19hdjYcY7vXk/vRkhM3v/ZndtgEXRWw==' crossorigin='anonymous'/>
+  <!-- Axios  -->
+  <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  <!-- VueJs  -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <title>Axios base</title>
+</head>
+
+<body>
+
+  <div id="app" class="container my-5">
+    <h1>{{ titolo }}</h1>
+    <ul>
+      <li v-for="email in emails">{{ email }}</li>
+    </ul>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
